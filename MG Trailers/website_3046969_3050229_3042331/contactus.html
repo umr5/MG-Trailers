@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+ crossorigin="anonymous">
+<div id="page">
+
+	<head>
+      
+		<meta charset="utf-8">
+		<title>MG Trailers - Sci-Fi</title>
+		<link rel="icon" href="images/ball-logo.png" type="image/icon type">
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="nav-bar">
+				<nav>
+					<ul>
+						</li>
+						<a href="index.html">
+							<li>Home</li>
+						</a>
+
+						<a href="action.html">
+							<li>Action</li>
+						</a>
+            <a href="adventure.html">
+							<li>Adventure</li>
+						</a>
+            <a href="family.html">
+							<li>Family</li>
+						</a>
+            <a href="sci-fi.html">
+							<li>Sci-Fi</li>
+						</a>
+            <a href="horror.html">
+							<li>Horror</li>
+						</a>
+            <a href="mystery.html">
+							<li>Mystery</li>
+						</a>
+           		<a href="contactus.html">
+							<li>Contact Us</li>
+						</a> 
+
+					</ul>
+				</nav>
+			</div>
+			<div id="logobox">
+				<img src="images/ball-logo.png" width="135" height="135" id="logo" > 
+      </div>
+      <div id="overlay">
+        <h1 id="overlaydesc"></h1>
+        <div id="overlayiframe"></div>
+        <a href="#" class="close" id="overbutton" onclick="close_overlay()"></a>
+      </div>
+<div id="content">
+	<main>
+    <div class="jumbotron" id="aboutus">
+      <h1>About the developers:</h1>
+      <h2>Gabriela Melo Melgaço, No.3050229:</h2>
+      <p>My name is Gabriela I'm 21 years old and from Minas Gerais-Brazil. I've been living in Cork since January 2019. I came to Ireland with the idea to stay 8 months to learn english but I just loved it here so much that I decided stay for 2 years and then go back to brazil to start college there. After living here for 1 year and half I got the opportunity to do college here what is amazing and I couldn't miss that chance.	
+        I had no experience in this area so everything I know until now I have learned in college. It's been a really nice experience and I'm exciting to improve my skills.</p>
+      <h3>Her work on the project:</h3>
+    <p>Gabriela's work centered mainly on the CSS and HTML of the website, she was responsible for some of the page's design, as well as gathering information about the dozens of movies on the website, and inserting the information into the site. </p>
+    <h2>Umar Tariq, No.3042331:</h2>
+    <p>This is Umar, I was born in Lahore-Pakistan but grew up in Dubai-UAE. I am 20 years old and I have been living in Dubai for the past 15 years. I just got done with my A levels and decided to pursue a degree in Computer Science because I love computers. I intend to complete my Bachelors at Griffith College and pursue a Masters in Artificial Intelligence. Maybe make a self-driving car or baby robot that can be sent to school, who knows where technology will take us...
+
+      I started learning HTML when I was in Grade 6. It has always been my dream to learn more and make my work better. I have developed some websites using templates and wix.com. This was my very first hands-on full website attempt with CSS and I found it a very interesting coding language to add new features to your websites. Along with web designing, I am keen to more about programming in general. I have been learning C++ on my own and here at Griffith College I have been exposed to Java. I find programming as a puzzle solving game which can do wonders.</p>
+    <h3>His work on the project:</h2>
+    <p>Umar's work on the project was mostly done in the CSS/HTML and the design departament. He provided a framework for the website to start on, designed the main page, and helped populate the large amount of info on the website. He also wrote a big part of the CSS contained in the website.</p>
+    <h2>Nathaniel Minghim, No.3046969:</h2>
+    <p>Hello! My name is Nathaniel and I am a first year at Griffith College studying CS. I was born in Lowell, Massachusetts, but i lived the majority of my life in Sao Carlos, Sao Paulo, Brazil. I wrote my first "Hello world" when i was 15 and i just coudn't stop programming since then.<br> I always had a deep love for research and physics since they both help me learn more about the world we enhabit, hence my ultimate carrer goal is working with quantum computer research. It may not be the most lucrative or the safest carrer path, but since it is a mix of  computer science, physics and research so I am very determined to give it a shot.</p>
+    <h3>His work on the project:</h3>
+    <p>Nathaniel's work focused on the JS and CSS of the webpage, he wrote the JavaScript functions the website uses, and also implemented the overlay system, as well and the slideshow on the main page. Nathaniel also helped provide structure in some pages by using bootstrap.</p>
+  </div>
+    
+		<div class="formcontainer jumbotron">
+      <form name="form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="41" placeholder="Required." required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" size="41"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="We will use this email to contact you back if you wish." size="41"><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" size="41" placeholder="Required." required><br>
+        <label for="content">Content:</label><br>
+        <textarea type="text" id="content" name="content" rows="5" placeholder="Required." required></textarea><br>
+      </form> 
+      <br>
+      
+      <div style="text-align: center;">
+      <button style="background-color: blueviolet; color:blue ;" onclick="submit_form()">Submit</button>
+    </div>
+  </div>
+	</main>
+	<aside>
+		
+		</div>
+
+	</aside>
+</div>
+		<footer>
+      <footer>
+        <img src="images/ball-logo.png" width="5%" height="5%" ></img>
+        <h5>MG Trailers</h5>
+        <p>MG Trailers is a Free Movies and Games Trailers streaming site with zero ads.<br> We let you watch movies and games trailers without having to register or paying,<br> with over 50 movies and Games Trailers for you to Enjoy!</p>
+      </footer>
+		</footer>
+	</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+      
+      function submit_form(){ // function used to validate and submit the form, gets all the values from the text box, checks if the required ones are filled out, than prints the form to screen if successfull
+        fname = document.forms["form"]["fname"].value 
+        subject = document.forms["form"]["subject"].value
+        content = document.forms["form"]["content"].value
+        email = document.forms["form"]["email"].value
+        lname = document.forms["form"]["lname"].value
+
+       if (fname == "" || subject == "" || content == ""){
+        window.alert("The form is not complete! Please fill in all the required fields!.")
+       
+      } else {
+        var msg = `Thanks for the submission, this is all the info that is being submitted:
+First Name:` + fname + `
+Last Name:` + lname + `
+Email:` + email + `
+Subject:` + subject + `
+Content:` + content
+        window.alert(msg)
+      }
+      
+      
+      
+      }
+          </script>
+  </body>
+</div>
+</html>

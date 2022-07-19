@@ -1,0 +1,310 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 19px;
+}
+
+div#container {
+	width: 100%;
+	 margin: 0 auto;
+	/* background-color: rgb(1,26,30); */
+  color:  snow;
+  background: rgb(3,1,29);
+  background: linear-gradient(90deg, rgba(3,1,29,1) 0%, rgba(21,66,187,1) 42%, rgba(163,72,212,1) 77%);
+}
+button{
+	background: none;
+	border: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+main {
+	margin-top: 5%;
+	margin-left:2%;
+	width: 100%;
+}
+div#nav-bar{
+	background: rgb(25,34,37);
+
+	
+
+	padding: 0.2rem;
+	position: sticky;
+	top: 0;
+  z-index: 3;
+  /* margin-bottom: -100px; */
+  
+}
+div#nav-bar nav ul a{
+	text-decoration: none;
+	border-left: 0px;
+	border-right: 2px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-width: 50%;
+	border-color: white;
+	border-style: solid;
+  
+}
+
+div#nav-bar nav ul{
+	margin-left: 80px;
+  
+}
+div#nav-bar nav ul a:hover{
+	border-width: 1px;
+	border-color: white;
+	padding: 1rem;
+	border-style: solid;
+	border-radius: 15px;
+}
+div#nav-bar nav ul li {
+	padding: 1rem;
+	margin: 0 auto;
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5rem;
+	position: relative;
+	
+}
+ 
+div #content{
+	/* padding: 1.5rem; */
+  width: 95%;
+}
+h2 {
+	font-size: 2.2rem;
+	margin: 0;
+	color: white;
+}
+p{
+	color: white;
+}
+blockquote{
+	color: white;
+}
+li{
+	color: white;
+}
+
+
+footer {
+	width: 100%;
+	background-color: rgb(25,34,37);
+	border-color: white;
+	border-style: solid;
+	color: white;
+}
+footer p{
+	font-size: 12px;
+	position: relative;
+	bottom: 60px;
+	left: 80px;
+	margin-bottom: -50px;
+	text-align: center;
+}
+footer h5{
+	position: relative;
+	bottom: 60px;
+	left: 85px;	
+	margin-bottom: -30px;
+}
+
+div#about {
+	padding: 1rem;
+	border-top-color: grey;
+	border-style: solid;
+	border-bottom-color: grey;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 25px;
+}
+#about img{
+	float: right;
+	margin-left: 20px;
+	margin-right: -150px;
+	border:2px solid #eee;
+	border-radius: 25px;
+	padding: 0;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.showcase {
+  border-left: 2px;
+  border-bottom: 4px;
+  border-top: 0px;
+  border-right: 2px;
+  border-style: double;
+  border-color: grey;
+  border-radius: 10px;
+  
+
+}
+#logobox {
+  border: 4px;
+  border-color: rgb(25,34,37);
+  background-color:rgb(25,34,37); 
+  border-radius: 80px;
+  z-index: 4;
+  position: sticky;
+  top: 0;
+  width: 140px;
+  margin-bottom: -100px;
+  margin-top: -50px;
+}
+#logo {
+  z-index: 4;
+  position: sticky;
+  top: 0;
+
+  
+
+}
+
+#overlay { /* source of inspiration: https://www.w3schools.com/howto/howto_css_overlay.asp */
+	z-index: 5; 
+	background-color: rgba(0,0,0,0.5);
+	position: fixed; 
+	display: none; 
+	width: 100%; 
+	height: 100%; 
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer; 
+  }
+  /* 
+  #overlaydesc{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+  } */
+  #overlayiframe {
+  position: absolute;
+	top: 35%;
+	left: 50%;
+	font-size: 50px;
+   
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+  
+  
+  }
+  #overlaydesc{
+	position: absolute;
+	top: 66%;
+	/* left: 13%; */
+	margin-left: 30%;
+	margin-right: 30%;
+	/* text-align: center; */
+	font-size: 17px;
+	color: rgb(231, 227, 227);
+	background-color: rgb(25,34,37);
+	padding: 10px;
+	/* transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%); */
+  }
+  
+	#overbutton {
+	position: absolute;
+	top: 10%;
+	left: 75%;
+	font-size: 50px;
+	/* color: rgb(231, 227, 227); */
+	/* transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%); */
+	}
+  /* .col-6 a:hover {
+  size: 120%;
+  } */
+  
+
+.col-6 img {
+	padding: 0.5rem;
+}
+
+.col-6 h3 {
+	padding: 0.5rem;
+}
+.col-6 p {
+	position: relative;
+	top: -105px;
+	right: -150px;
+}
+.row h1 {
+	text-align: center;
+	padding: 2rem;
+}
+ul {
+	list-style-type: none;
+}
+.col-3 p{
+	padding: 1rem;
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: rgb(255, 4, 4);
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+form {
+	color:blueviolet;
+}
+
+#aboutus h1 {
+	color: blue;
+
+}
+
+#aboutus h2 {
+	color: blueviolet;
+
+}
+
+#aboutus h3 {
+	color: navy;
+
+}
+
+#aboutus p {
+	color: black;
+
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+ crossorigin="anonymous">
+ 
+
+
+<div id="page">
+
+	<head>
+      
+		<meta charset="utf-8">
+		<title>MG Trailers</title>
+		<link rel="icon" href="images/ball-logo.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="nav-bar">
+				<nav>
+					<ul>
+						</li>
+						<a href="index.html">
+							<li>Home</li>
+						</a>
+
+						<a href="action.html">
+							<li>Action</li>
+						</a>
+            <a href="adventure.html">
+							<li>Adventure</li>
+						</a>
+            <a href="family.html">
+							<li>Family</li>
+						</a>
+            <a href="sci-fi.html">
+							<li>Sci-Fi</li>
+						</a>
+            <a href="horror.html">
+							<li>Horror</li>
+						</a>
+            <a href="mystery.html">
+							<li>Mystery</li>
+						</a>
+           		<a href="contactus.html">
+							<li>Contact Us</li>
+						</a> 
+
+					</ul>
+				</nav>
+			</div>
+			<div id="logobox">
+				<img src="images/ball-logo.png" width="135" height="135" id="logo" > 
+      </div>
+      <div id="overlay">
+        
+        <h1 class="jumbotron"id="overlaydesc"></h1>
+        <div id="overlayiframe"></div>
+         <a href="#" class="close" id="overbutton" onclick="close_overlay()"></a>
+      </div>
+ <div id="slideshow"> <!-- slideshow carrousel, using jquery template -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="images\wall1.jpg" alt="First slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\clankwallpaper.jpg" alt="Second slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\wall3.jpg" alt="Third slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\hitman-slide.png" alt="Third slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\tomandjerry-slide.jpg" alt="Third slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images\cyberpunk-slide.jpg" alt="Third slide" height="900" width="1080">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<h3 style="text-align: center; padding-top: 2rem;">Welcome to MG Trailers!<br> This website is a host for all the latest upcoming Movies/Games trailers.<br> This main page is also a top 3 of each Movie/Game genre. Click on the images to view more info.</h3>
+<div id="content">
+	<main>
+		
+			<div class="row">
+       <div class="col-6 showcase">
+         <h1>Action</h1>
+         <div class="row">
+          <div class="col-6 ">
+            <h3> Movies </h3>
+            <ol>
+               <li><button onclick="show_overlay('Dominic Toretto and his crew join forces to battle the most skilled assassin and high-performance driver they have ever encountered -- his forsaken brother.',f9o)" id="test"><img src="images/movies/fp-poster.jpg" alt="" width="140" height="200"><p>Fast and Furious 9</p></button></li> 
+               <li><button onclick="show_overlay('the plot is still unknown.',matrix4 )"id = "test"><img src="images/movies/M4-poster.jpg" alt="" width="140" height="200"><p>Matrix 4</p></button></li>
+              <li><button onclick="show_overlay('At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative.',blackwidow )"id = "test"><img src="images/movies/black-widow-poster.png" alt="" width="140" height="200"><p>Black Widow</p></button></li>
+            </ol>
+
+          </div>
+          
+         <div class="col-6 ">
+           <h3> Games </h3>
+           <ol>
+              <li><button onclick="show_overlay('Hitman 3 is a stealth game developed and published by IO Interactive for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, Stadia, and Nintendo Switch on 20 January 2021.',hitman3)"id = "test"><img src="images/games/hitman3-poster.jpg" alt="" width="140" height="200"><p>Hitman 3</p></button></li>
+              <li><button onclick="show_overlay('Far Cry 6 is an upcoming first-person shooter game developed by Ubisoft Toronto and published by Ubisoft. It is the sixth main installment of the Far Cry series for Amazon Luna, Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and Stadia. The game is set to be released in mid 2021.',farcy6 )"id = "test"><img src="images/games/farcry6-poster.jpg" alt="" width="140" height="200"><p>Far Cry 6</p></button></li>
+              <li><button onclick="show_overlay('Elden Ring is an upcoming action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. The game is a collaborative effort between game director Hidetaka Miyazaki and fantasy novelist George R. R. Martin and is scheduled for release on Microsoft Windows, PlayStation 4, and Xbox One.',eldenring )"id = "test"><img src="images/games/eldenring-poster.jpg" alt="" width="140" height="200"><p>Elden Ring</p></button></li>
+            </ol>
+         </div>
+         </div>
+       </div>
+      <div class="col-6 showcase">
+        <h1> Sci-fi</h1>
+       <div class="row">
+        <div class="col-6 "><h3> Movies </h3>
+        <ol>
+              <li><button onclick="show_overlay('Venom: Let There Be Carnage is an upcoming American superhero film featuring the Marvel Comics character Venom, produced by Columbia Pictures in association with Marvel and Tencent Pictures.',venom)" id="test"><img src="images/movies/venom.png" alt="" width="140" height="200"><p>Venom 2</p></button></li> 
+              <li><button onclick="show_overlay('Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they quickly realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',quietplace)" id="test"><img src="images/movies/quietplace.jpg" alt="" width="140" height="200"><p>A quiet place 2</p></button></li>
+              <li><button onclick="show_overlay('Spider-Man: No Way Home is an upcoming American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing.',spiderman )"id = "test"><img src="images/movies/spider1.jpg" alt="" width="140" height="200"><p>Spider-Man:<br> No Way Home</p></button></li>
+            </ol>
+        </div>
+       <div class="col-6 "><h3> Games </h3>
+       <ol>
+        <li><button onclick="show_overlay('EVERSPACE™ 2 is a fast-paced single-player space shooter with deep exploration, tons of loot and classic RPG elements. Experience a thrilling story set in a vivid, handcrafted open-world full of secrets and perils on your journey to become human after all.',everspace )"id = "test"><img src="images/games/everspace.jpg" alt="" width="140" height="200"><p>Everspace 2</p></button></li>
+        <li><button onclick="show_overlay('According to Microsoft, Master Chief returns in Halo Infinite, the third chapter of the `Reclaimer Saga`, with `his greatest adventure yet to save humanity`. The storyline of Halo Infinite will be `much more human`, with the Master Chief playing a more central role than in Halo 5: Guardians.',halo )"id = "test"><img src="images/games/halo.jpg" alt="" width="140" height="200"><p>Halo Infinite</p></button></li>
+        <li><button onclick="show_overlay('Coming in 2022',starfield )"id = "test"><img src="images/games/starfield2.jpg" alt="" width="140" height="200"><p>Starfield</p></button></li>
+            </ol>
+       </div>
+       </div>
+
+      </div>
+      </div>
+    <div class="row">
+       <div class="col-6 showcase">
+         <h1> Mistery</h1>
+         <div class="row">
+          <div class="col-6 ">
+            <h3> Mystery Movies </h3>
+            <ol>
+              <li><button onclick="show_overlay('The peace and tranquility that was temporarily existent on the S.S. Karnak is destroyed after one of the passengers is found murdered. Renowned Belgian detective Hercule Poirot is entrusted with the important task of identifying which one of the passengers is the killer before they strike again.',nile)"id = "test"><img src="images/movies/nileposter.jpg" alt="" width="140" height="200"><p>Death On Nile</p></button></li> 
+              <li><button onclick="show_overlay('In 1980, Catherine Clare, an art restorer lives in Manhattan with her husband George and daughter Franny. When George lands a job teaching art history at a college, the family moves into a large farm house in Chosen, New York. Catherine feels isolated in the house. She finds a Bible tracking the deaths of the previous owners, and sees names scratched out, marked “Damned”. She sees strange lights leading her to an antique ring, which she begins wearing. Franny feels a ghostly presence and insists on sleeping in her parents` room. Catherine employs brothers Eddie and Cole Lucks as farm hands, while George starts an affair with Willis, a female student.',things )"id = "test"><img src="images/movies/thingsposter.jpg" alt="" width="140" height="200"><p>Things Heard and Seen</p></button></li>
+              <li><button onclick="show_overlay('Behind Her Eyes follows the story of Louise, a single mother, whose `world is thrown off kilter when she begins an affair with her new boss, David, and matters take an even stranger turn when she’s drawn into an unlikely friendship with his wife, Adele. What starts as an unconventional love triangle soon becomes a dark, psychological tale of suspense and twisted revelations, as Louise finds herself caught in a dangerous web of secrets where nothing and no-one is what they seem.`',bhe )"id = "test"><img src="images/movies/bhe.jpg" alt="" width="140" height="200"><p>Behind Her Eyes</p></button></li>
+            </ol>
+          </div>
+          
+         <div class="col-6 ">
+           <h3> Mistery Games </h3>
+            <ol>
+              <li><button onclick="show_overlay('Disco Elysium is a role-playing video game developed and published by ZA/UM. The game takes place in a large city still recovering from a war decades prior to the game`s start, with players taking the role of an amnesic detective who has been charged with solving a murder mystery. During the investigation, he comes to recall events about his own past as well as current forces trying to affect the city.',disco)"id = "test"><img src="images/games/discoposter.jpg" alt="" width="140" height="200"><p>Disco Elysium - The Final<br> Cut </p></button></li>
+              <li><button onclick="show_overlay('Persona 4 Golden, also known as Persona 4: The Golden in Japan, is an enhanced port of PlayStation 2`s Persona 4 that released for the PlayStation Vita and later Microsoft Windows. The Vita version is compatible with PlayStation TV. The port adds a variety of new content and convenience features to update the original game. Golden was adapted into an anime, Persona 4 The Golden Animation.',p4g )"id = "test"><img src="images/games/p4gposter.jpg" alt="" width="140" height="200"><p>Persona 4 Golden</p></button></li>
+              <li><button onclick="show_overlay('Danganronpa V3 continues the same style of gameplay as the first two Danganronpa games, which is split into School Life, Deadly Life, and Class Trial segments. During School Life, the player interacts with other characters and progresses through the story until coming across a murder victim and entering the Deadly Life, during which they must gather evidence for use in the Class Trial.[',dangan )"id = "test"><img src="images/games/danganposter.jpg" alt="" width="140" height="200"><p>Danganronpa V3: Killing<br> Harmony</p></button></li>
+            </ol>
+
+         </div>
+         </div>
+       </div>
+      <div class="col-6 showcase">
+        <h1> Horror</h1>
+       <div class="row">
+        <div class="col-6 "><h3> Horror Movies </h3>
+              <ol>
+              <li><button onclick="show_overlay('All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end.',purge )"id = "test"><img src="images/movies/purge-poster.jpg" alt="" width="140" height="200"><p>The Forever Purge</p></button></li>
+              <li><button onclick="show_overlay('The sequel is set in the years following the initial deadly home invasion, where Norman Nordstrom (Stephen Lang) lives in quiet solace until his past sins catch up to him.',dontbreath2 )"id = "test"><img src="images/movies/dont-breathe-2.jpg" alt="" width="140" height="200"><p>Don't Breath 2</p></button></li>
+              <li><button onclick="show_overlay('Paranormal investigators Ed and Lorraine Warren try to uncover the truth behind a murderers claim of demonic possession.',conjuring )"id = "test"><img src="images/movies/conjuring3-poster.jpg" alt="" width="140" height="200"><p>The Conjuring 3</p></button></li>
+            </ol>
+        </div>
+       <div class="col-6 "><h3> Horror Games </h3>
+               <ol>
+              <li><button onclick="show_overlay('Resident Evil Village is a survival horror game developed and published by Capcom.',residentevil )"id = "test"><img src="images/games/rev-poster.png" alt="" width="140" height="200"><p>Resident Village</p></button></li>
+              <li><button onclick="show_overlay('Diablo IV is an upcoming dungeon crawler action role-playing game developed by Blizzard Entertainment, the fourth title in the Diablo series. The game was announced at BlizzCon 2019 on November 1, 2019 for PC, PlayStation 4, and Xbox One.',diablo4 )"id = "test"><img src="images/games/diablo4-poster.jpg" alt="" width="140" height="200"><p>Diablo 4</p></button></li>
+              <li><button onclick="show_overlay('Hey, kids. Do you want pizza? Well, Fazbear Entertainment has spared no expense developing the worlds most extreme family fun center - Freddy Fazbears Mega Pizza Plex. At three stories ...',fnaf )"id = "test"><img src="images/games/fivenights-poster.jpg" alt="" width="140" height="200"><p>Five Nights at Freddy's:<br> Security Breach</p></button></li>
+            </ol>
+       </div>
+       </div>
+
+      </div>
+      </div>
+
+      <div class="row">
+       <div class="col-6 showcase">
+         <h1> Family</h1>
+         <div class="row">
+          <div class="col-6 ">
+            <h3> Family Movies </h3>
+            <ol>
+              <li><button onclick="show_overlay('Plot unknown. Fourth installment of the `Hotel Transylvania` franchise.',hotelt )"id = "test"><img src="images/movies/hotelt.jpg" alt="" width="140" height="200"><p>Hotel Transilvania 2 </p></button></li>
+              <li><button onclick="show_overlay('Lucky Prescott`s life is changed forever when she moves from her home in the city to a small frontier town and befriends a wild mustang named Spirit.',spirit )"id = "test"><img src="images/movies/spirit.jpg" alt="" width="140" height="200"><p>Spirit Untamed </p></button></li>
+              <li><button onclick="show_overlay('When the PAW Patrol’s biggest rival, Mayor Humdinger, becomes Mayor of nearby Adventure City and starts wreaking havoc, Ryder and everyone’s favorite heroic pups kick into high gear to face the challenge head on. The team finds help from a new ally, the savvy dachshund Liberty. Meanwhile, one pup must face his past in Adventure City. Together, armed with exciting new gadgets and gear, the PAW Patrol fights to save the citizens of Adventure City and stop Mayor Humdinger from destroying the bustling metropolis. No city is too big, no pup is too small!',paw)"id = "test"><img src="images/movies/paw.jpeg" alt="" width="140" height="200"><p>Paw Patrol</p></button></li>
+            </ol>
+          </div>
+          
+         <div class="col-6 ">
+           <h3> Family Games </h3>
+           <ol>
+            <li><button onclick="show_overlay('When a lost soul named `Ki` awakens in the afterlife, her path back to earth is blocked by the ‘Evergate’. To return home, Ki must decipher her mysterious connection to a kindred spirit as she navigates through memories of a time once past. Navigate through each new memory via 85 challenging stages as you attempt to reach the ‘end gate’ of each level. ',evergate)" id="test"><img src="images/games/Evergate.jpg" alt="" width="140" height="200"><p>Evergate</p></button></li> 
+            <li><button onclick="show_overlay('In New Pokémon Snap, the player is a Pokémon photographer who visits various islands in the Lental region to help the research studies of Professor Mirror and his assistants Rita and Phil.',snap )"id = "test"><img src="images/games/PokemonSnap.jpg" alt="" width="140" height="200"><p>Pokemon Snap</p></button></li>
+            <li><button onclick="show_overlay('Ratchet & Clank: Rift Apart will explore the story of the titular characters as they traverse across different worlds in multiple realities to stop their archenemy, Doctor Nefarious, from exploiting the catastrophic dimensional collapse to finally achieve his dream of completely exterminating organic life in all universes.',ratchet )"id = "test"><img src="images/games/ratchet.jpg" alt="" width="140" height="200"><p>Ratchet and Clank</p></button></li>
+            </ol>
+         </div>
+         </div>
+       </div>
+      <div class="col-6 showcase">
+        <h1> Adventure </h1>
+       <div class="row">
+        <div class="col-6 "><h3> Adventure Movies </h3>
+         <ol>
+              <li><button onclick="show_overlay('Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his ramshackle boat. Together, they search for an ancient tree that holds the power to heal -- a discovery that will change the future of medicine.',junglecruise )"id = "test"><img src="images/movies/jungleposter.jpg" alt="" width="140" height="200"><p>Jungle Cruise</p></button></li>
+              <li><button onclick="show_overlay('The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.',eternals )"id = "test"><img src="images/movies/eternalposter.jpg" alt="" width="140" height="200"><p>The Eternals</p></button></li>
+              <li><button onclick="show_overlay('Set just after the 2015 film, this time in the heart of the 1970s, a 12-year old Gru is growing up in the suburbs. A fanboy of a supervillain group known as the Vicious 6, Gru hatches a plan to become evil enough to join them. When the Vicious 6 fire their leader, legendary fighter Wild Knuckles, Gru interviews to become their newest member.',minions )"id = "test"><img src="images/movies/minionposter.jpg" alt="" width="140" height="200"><p>Minions The Rise of Gru</p></button></li>
+            </ol>
+        </div>
+       <div class="col-6 "><h3> Adventure Games </h3>
+        <ol>
+              <li><button onclick="show_overlay('The game`s story follows Cloud Strife, a mercenary who joins an eco-terrorist organization to stop a world-controlling megacorporation from using the planet`s life essence as an energy source. Events send Cloud and his allies in pursuit of Sephiroth, a former member of the corporation who seeks to harm the planet and become a god. During the journey, Cloud builds close friendships with his party members, including Aerith Gainsborough, who holds the secret to saving their world.',vi )"id = "test"><img src="images/games/ffviiposter.jpg" alt="" width="140" height="200"><p>FF VII Remake </p></button></li>
+              <li><button onclick="show_overlay('Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe. Players assume the first-person perspective of a customisable mercenary known as V, who can acquire skills in hacking and machinery with options for melee and ranged combat. ',cyberpunk )"id = "test"><img src="images/games/cyberposter.jpg" alt="" width="140" height="200"><p>Cyberpunk 2077</p></button></li>
+              <li><button onclick="show_overlay('Critically acclaimed Prince of Persia: The Sands of Time is back! Remade for the first time by Ubisoft, relive this legendary tale, or discover it new for the first time. Embark on a journey as the Prince to save your kingdom from the treacherous Vizier, in this timeless classic.',princeofpersia )"id = "test"><img src="images/games/popposter.jpg" alt="" width="140" height="200"><p>Prince of Persia:<br> Sands of Time Remake</p></button></li>
+            </ol>
+       </div>
+       </div>
+
+      </div>
+      </div>
+
+	
+	
+
+	</main>
+	
+		
+		</div>
+
+	
+</div>
+		<footer>
+      <img src="images/ball-logo.png" width="5%" height="5%" ></img>
+      <h5>MG Trailers</h5>
+      <p>MG Trailers is a Free Movies and Games Trailers streaming site with zero ads.<br> We let you watch movies and games trailers without having to register or paying,<br> with over 50 movies and Games Trailers for you to Enjoy!</p>
+		</footer>
+	</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+      //Movies
+      var f9o = '<iframe width="560" height="315" src="https://www.youtube.com/embed/aSiDu3Ywi8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var matrix4 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/QPv9VdPvFe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var blackwidow = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Fp9pNPdNwjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var purge = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xOrXpK-rUaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var dontbreath2 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Fp7PZbBO8F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var conjuring = '<iframe width="560" height="315" src="https://www.youtube.com/embed/bBRAseMeAIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var junglecruise = '<iframe width="560" height="315" src="https://www.youtube.com/embed/f_HvoipFcA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var eternals = '<iframe width="560" height="315" src="https://www.youtube.com/embed/TziAh7O9iLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var minions = '<iframe width="560" height="315" src="https://www.youtube.com/embed/54yAKyNkK7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var venom = '<iframe width="560" height="315" src="https://www.youtube.com/embed/rrwBnlYOp4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var quietplace = '<iframe width="560" height="315" src="https://www.youtube.com/embed/BpdDN9d9Jio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spiderman = '<iframe width="560" height="315" src="https://www.youtube.com/embed/N6wMMMt5DY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var nile = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_GEWd5ycn2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var things = '<iframe width="560" height="315" src="https://www.youtube.com/embed/HCAaonjgDEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var bhe = '<iframe width="560" height="315" src="https://www.youtube.com/embed/bu9e410C__I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var hotelt = '<iframe width="560" height="315" src="https://www.youtube.com/embed/T3nqmGgnJe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var paw = '<iframe width="560" height="315" src="https://www.youtube.com/embed/bmjvETUG1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spirit = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_5ysj1zfGVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+      //Games
+      var eldenring = '<iframe width="560" height="315" src="https://www.youtube.com/embed/e5wwSxl0atc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var hitman3 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z29ORu6_p34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var farcy6 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/-IJuKT1mHO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var residentevil = '<iframe width="560" height="315" src="https://www.youtube.com/embed/26tay8lMZW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var diablo4 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/7RdDpqCmjb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var fnaf = '<iframe width="560" height="315" src="https://www.youtube.com/embed/BY9-jWQQHgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var cyberpunk = '<iframe width="560" height="315" src="https://www.youtube.com/embed/qIcTM8WXFjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var vi = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ERgrFVhL-n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var princeofpersia = '<iframe width="560" height="315" src="https://www.youtube.com/embed/htzq7EEXQs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var everspace = '<iframe width="560" height="315" src="https://www.youtube.com/embed/fuygGFteHpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var halo = '<iframe width="560" height="315" src="https://www.youtube.com/embed/MBb88gLmJZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var starfield = '<iframe width="560" height="315" src="https://www.youtube.com/embed/JUobbpHERh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var disco = '<iframe width="560" height="315" src="https://www.youtube.com/embed/YV2lp6p_gXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var p4g = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Czj-dBcikvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var dangan = '<iframe width="560" height="315" src="https://www.youtube.com/embed/zAKPDTPiCz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var evergate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/5gA4Zp0Y-qE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var snap = '<iframe width="560" height="315" src="https://www.youtube.com/embed/L9Q0JMx08Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var ratchet = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ai3o0XtrnM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+      function show_overlay(text,iframe){ //function that creates the overlay based on what movie/game the user clicked on, we did this by creating a css class that in invisible and occupies the z-index 4, and when the user clicks on a image, we make the class visible and add text to it based on what image was clicked on.
+      document.getElementById("overlaydesc").innerHTML ="Description: " + text
+      var ifrm = document.getElementById("overlayiframe") 
+      
+      ifrm.innerHTML = iframe
+      
+      document.getElementById("overlay").style.display = "block"
+      }
+      function close_overlay(){
+        document.getElementById("overlay").style.display = "none"
+
+
+      }
+          </script>
+  </body>
+</div>
+</html>

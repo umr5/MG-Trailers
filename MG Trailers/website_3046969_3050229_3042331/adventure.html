@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+ crossorigin="anonymous">
+<div id="page">
+
+	<head>
+      
+		<meta charset="utf-8">
+		<title>MG Trailers - Adventure</title>
+		<link rel="icon" href="images/ball-logo.png" type="image/icon type">
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="nav-bar">
+				<nav>
+					<ul>
+						</li>
+						<a href="index.html">
+							<li>Home</li>
+						</a>
+
+						<a href="action.html">
+							<li>Action</li>
+						</a>
+            <a href="adventure.html">
+							<li>Adventure</li>
+						</a>
+            <a href="family.html">
+							<li>Family</li>
+						</a>
+            <a href="sci-fi.html">
+							<li>Sci-Fi</li>
+						</a>
+            <a href="horror.html">
+							<li>Horror</li>
+						</a>
+            <a href="mystery.html">
+							<li>Mystery</li>
+						</a>
+           		<a href="contactus.html">
+							<li>Contact Us</li>
+						</a> 
+
+					</ul>
+				</nav>
+			</div>
+			<div id="logobox">
+				<img src="images/ball-logo.png" width="135" height="135" id="logo" > 
+      </div>
+      <div id="overlay">
+        <h1 id="overlaydesc"></h1>
+        <div id="overlayiframe"></div>
+        <a href="#" class="close" id="overbutton" onclick="close_overlay()"></a>
+      </div>
+
+
+<div id="content">
+	<main>
+		
+			
+       
+    <h1 style="text-align: center; padding: 2rem;"> ADVENTURE MOVIES</h1>
+         <div class="row">
+          <div class="col-3 ">
+            
+            <ul>
+               <li><button onclick="show_overlay('Dominic Toretto and his crew join forces to battle the most skilled assassin and high-performance driver they have ever encountered -- his forsaken brother.',f9o)" id="test"><img src="images/movies/fp-poster.jpg" alt="" width="280" height="400"><p>Fast and Furious 9</p></button></li> 
+               <li><button onclick="show_overlay('In the far future of humanity, Duke Leto Atreides accepts stewardship of the dangerous desert planet Arrakis, also known as Dune, the only source of the most valuable substance in the universe, ``the spice``, a drug which extends human life, provides superhuman levels of thought, and makes faster-than-light travel practical. Though Leto knows the opportunity is an intricate trap set by his enemies, he takes his Bene Gesserit concubine Lady Jessica, young son and heir Paul, and most trusted advisers to Arrakis. Leto takes control of the spice mining operation, which is made perilous by the presence of giant sandworms. A bitter betrayal leads Paul and Jessica to the Fremen, natives of Arrakis who live in the deep desert.',dune )"id = "test"><img src="images/movies/dune.jpg" alt="" width="280" height="400"><p>Dune </p></button></li>
+              <li><button onclick="show_overlay('At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative.',blackwidow )"id = "test"><img src="images/movies/black-widow-poster.png" alt="" width="280" height="400"><p>Black Widow</p></button></li>
+            </ul>
+
+           
+
+          </div>
+          
+         <div class="col-3 ">
+          
+           <ul>
+            <li><button onclick="show_overlay('Lucky Prescott`s life is changed forever when she moves from her home in the city to a small frontier town and befriends a wild mustang named Spirit.',spirit )"id = "test"><img src="images/movies/spirit.jpg" alt="" width="280" height="400"><p>Spirit Untamed </p></button></li>
+            <li><button onclick="show_overlay('Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his ramshackle boat. Together, they search for an ancient tree that holds the power to heal -- a discovery that will change the future of medicine.',junglecruise )"id = "test"><img src="images/movies/jungleposter.jpg" alt="" width="280" height="400"><p>Jungle Cruise</p></button></li>
+              <li><button onclick="show_overlay('Spider-Man: No Way Home is an upcoming American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing.',spiderman )"id = "test"><img src="images/movies/spider1.jpg" alt="" width="280" height="400"><p>Spider-Man: No Way Home</p></button></li>
+            </ul>
+         
+              
+         
+        </div>
+         <div class="col-3 ">
+            
+            <ul>
+               <li><button onclick="show_overlay('The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.',eternals )"id = "test"><img src="images/movies/eternalposter.jpg" alt="" width="280" height="400"><p>The Eternals</p></button></li>
+               <li><button onclick="show_overlay('Recruited to rescue a kidnapped scientist, globe-trotting spy James Bond finds himself hot on the trail of a mysterious villain, whos armed with a dangerous new technology.',notimetodie )"id = "test"><img src="images/movies/no-time-to-die.jpg" alt="" width="280" height="400"><p>No Time TO Die</p></button></li>
+             </ul>
+                 
+            
+ 
+          </div>
+          <div class="col-3 ">
+            
+            <ul>
+                <li><button onclick="show_overlay('When the PAW Patrol’s biggest rival, Mayor Humdinger, becomes Mayor of nearby Adventure City and starts wreaking havoc, Ryder and everyone’s favorite heroic pups kick into high gear to face the challenge head on. The team finds help from a new ally, the savvy dachshund Liberty. Meanwhile, one pup must face his past in Adventure City. Together, armed with exciting new gadgets and gear, the PAW Patrol fights to save the citizens of Adventure City and stop Mayor Humdinger from destroying the bustling metropolis. No city is too big, no pup is too small!',paw)"id = "test"><img src="images/movies/paw.jpeg" alt="" width="280" height="400"><p>Paw Patrol</p></button></li>
+                <li><button onclick="show_overlay('Set just after the 2015 film, this time in the heart of the 1970s, a 12-year old Gru is growing up in the suburbs. A fanboy of a supervillain group known as the Vicious 6, Gru hatches a plan to become evil enough to join them. When the Vicious 6 fire their leader, legendary fighter Wild Knuckles, Gru interviews to become their newest member.',minions )"id = "test"><img src="images/movies/minionposter.jpg" alt="" width="280" height="400"><p>Minions: The Rise of Gru</p></button></li>
+
+             </ul>
+                  
+             
+
+          </div>
+
+         </div>
+         <br>
+         <br>
+         <h1 style="text-align: center;"> ADVENTURE GAMES</h1>
+         <br>
+         <br>
+         <div class="row">
+            <div class="col-3 ">
+              
+              <ul>
+                <li><button onclick="show_overlay('The remains of the world are swallowed by chaos, as a demonic revolution descends into a broken city. Caught between a battle of Gods and demons, the choices you make can bring life, rebirth, or death, and determine who triumphs.',smt3 )"id = "test"><img src="images/games/smt3.jpg" alt="" width="280" height="400"><p>SMT 3</p></button></li>
+                <li><button onclick="show_overlay('Mass Effect Legendary Edition is a compilation of the video games in the Mass Effect trilogy: Mass Effect, Mass Effect 2, and Mass Effect 3. It was developed by BioWare with assistance from Abstraction Games and Blind Squirrel Games, and published by Electronic Arts.',masseffect )"id = "test"><img src="images/games/Mass-Effect-Legendary-Edition-Game-Poster.jpg" alt="" width="280" height="400"><p>Mass Effect Legendary Edition</p></button></li>
+                <li><button onclick="show_overlay('Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe. Players assume the first-person perspective of a customisable mercenary known as V, who can acquire skills in hacking and machinery with options for melee and ranged combat. ',cyberpunk)" id="test"><img src="images/games/cyberposter.jpg" alt="" width="280" height="400"><p>Cyberpunk 2077</p></button></li> 
+            </ul>
+  
+  
+  
+  
+           
+  
+                 
+             
+  
+  
+             
+  
+            </div>
+            
+           <div class="col-3 ">
+              
+             <ul>
+                <li><button onclick="show_overlay('The game`s story follows Cloud Strife, a mercenary who joins an eco-terrorist organization to stop a world-controlling megacorporation from using the planet`s life essence as an energy source. Events send Cloud and his allies in pursuit of Sephiroth, a former member of the corporation who seeks to harm the planet and become a god. During the journey, Cloud builds close friendships with his party members, including Aerith Gainsborough, who holds the secret to saving their world.',vi)"id = "test"><img src="images/games/ffviiposter.jpg" alt="" width="280" height="400"><p>Final Fantasy VII Remake</p></button></li>
+                <li><button onclick="show_overlay('Ratchet & Clank: Rift Apart will explore the story of the titular characters as they traverse across different worlds in multiple realities to stop their archenemy, Doctor Nefarious, from exploiting the catastrophic dimensional collapse to finally achieve his dream of completely exterminating organic life in all universes.',ratchet )"id = "test"><img src="images/games/ratchet.jpg" alt="" width="280" height="400"><p>Ratchet and Clank</p></button></li>
+                <li><button onclick="show_overlay('House of Ashes is the third installment of The Dark Pictures Anthology series.', darkanthology)"id = "test"><img src="images/games/houseofashes.png" alt="" width="280" height="400"><p>Dark Picture Anthology: House of Ashes</p></button></li>
+            </ul>
+           
+                
+           
+          </div>
+           <div class="col-3 ">
+                
+              <ul>
+                 <li><button onclick="show_overlay('SnowRunner is a 2020 off-road simulation video game developed by Saber Interactive and published by Focus Home Interactive. SnowRunner has the player control off-road vehicles as they traverse between locations to complete objectives.',snowrunner )"id = "test"><img src="images/games/snowrunner.jpg" alt="" width="280" height="400"><p>SnowRunner</p></button></li>
+                 <li><button onclick="show_overlay('Life Is Strange: True Colors is an upcoming graphic adventure video game developed by Deck Nine and published by Square Enixs European subsidiary. It will be released in its entirety on 10 September 2021 for Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, and Stadia.',lifeisstrange )"id = "test"><img src="images/games/life-is-strange-true-colors-cover.jpg" alt="" width="280" height="400"><p>Life is Strange: True Colors</p></button></li>
+               </ul>
+                   
+              
+   
+            </div>
+            <div class="col-3 ">
+                
+              <ul>
+                 <li><button onclick="show_overlay('Critically acclaimed Prince of Persia: The Sands of Time is back! Remade for the first time by Ubisoft, relive this legendary tale, or discover it new for the first time. Embark on a journey as the Prince to save your kingdom from the treacherous Vizier, in this timeless classic.',princeofpersia )"id = "test"><img src="images/games/popposter.jpg" alt="" width="280" height="400"><p>Prince of Persia Sands of Time Remake</p></button></li>
+                 <li><button onclick="show_overlay('Shin Megami Tensei V is an upcoming role-playing video game in development by Atlus. It is part of the Shin Megami Tensei series, itself a part of the larger Megami Tensei franchise, and is scheduled for release on the Nintendo Switch in 2021.',smt5 )"id = "test"><img src="images/games/smt5.jpg" alt="" width="280" height="400"><p>SMT V</p></button></li>
+               </ul>
+                    
+               
+  
+            </div>
+  
+           </div>
+      
+    
+            
+	
+	
+
+	</main>
+	<aside>
+		
+		</div>
+
+	</aside>
+</div>
+		<footer>
+      <footer>
+        <img src="images/ball-logo.png" width="5%" height="5%" ></img>
+        <h5>MG Trailers</h5>
+        <p>MG Trailers is a Free Movies and Games Trailers streaming site with zero ads.<br> We let you watch movies and games trailers without having to register or paying,<br> with over 50 movies and Games Trailers for you to Enjoy!</p>
+      </footer>
+		</footer>
+	</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+      // Movies Trailers:
+      var f9o = '<iframe width="560" height="315" src="https://www.youtube.com/embed/aSiDu3Ywi8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var blackwidow = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Fp9pNPdNwjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var junglecruise = '<iframe width="560" height="315" src="https://www.youtube.com/embed/f_HvoipFcA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spiderman = '<iframe width="560" height="315" src="https://www.youtube.com/embed/N6wMMMt5DY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var eternals = '<iframe width="560" height="315" src="https://www.youtube.com/embed/TziAh7O9iLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var notimetodie = '<iframe width="560" height="315" src="https://www.youtube.com/embed/BIhNsAtPbPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var dune = '<iframe width="560" height="315" src="https://www.youtube.com/embed/n9xhJrPXop4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var paw = '<iframe width="560" height="315" src="https://www.youtube.com/embed/bmjvETUG1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spirit = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_5ysj1zfGVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var minions = '<iframe width="560" height="315" src="https://www.youtube.com/embed/54yAKyNkK7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+      //Games Trailers:
+      var masseffect = '<iframe width="560" height="315" src="https://www.youtube.com/embed/n8i53TtQ6IQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var cyberpunk = '<iframe width="560" height="315" src="https://www.youtube.com/embed/qIcTM8WXFjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var vi = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ERgrFVhL-n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var smt3 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/diEAe3eNvEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var ratchet = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ai3o0XtrnM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var lifeisstrange = '<iframe width="560" height="315" src="https://www.youtube.com/embed/PNt1aSkYfWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var darkanthology = '<iframe width="560" height="315" src="https://www.youtube.com/embed/OQvo4-Ly-sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var princeofpersia = '<iframe width="560" height="315" src="https://www.youtube.com/embed/htzq7EEXQs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var smt5 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/KL2MJ4Gx4OY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var snowrunner = '<iframe width="560" height="315" src="https://www.youtube.com/embed/hcFSFjJ2b6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+      function show_overlay(text,iframe){ //function that creates the overlay based on what movie/game the user clicked on, we did this by creating a css class that in invisible and occupies the z-index 4, and when the user clicks on a image, we make the class visible and add text to it based on what image was clicked on.
+      document.getElementById("overlaydesc").innerHTML ="Description: " + text
+      var ifrm = document.getElementById("overlayiframe") 
+      
+      ifrm.innerHTML = iframe
+      
+      document.getElementById("overlay").style.display = "block"
+
+      }
+      function close_overlay(){
+        document.getElementById("overlay").style.display = "none"
+
+
+      }
+      
+          </script>
+  </body>
+</div>
+</html>

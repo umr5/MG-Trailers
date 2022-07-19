@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+ crossorigin="anonymous">
+<div id="page">
+
+	<head>
+      
+		<meta charset="utf-8">
+		<title>MG Trailers - Sci-Fi</title>
+		<link rel="icon" href="images/ball-logo.png" type="image/icon type">
+	</head>
+
+	<body>
+
+		<div id="container">
+
+      <div id="nav-bar">
+				<nav>
+					<ul>
+						</li>
+						<a href="index.html">
+							<li>Home</li>
+						</a>
+
+						<a href="action.html">
+							<li>Action</li>
+						</a>
+            <a href="adventure.html">
+							<li>Adventure</li>
+						</a>
+            <a href="family.html">
+							<li>Family</li>
+						</a>
+            <a href="sci-fi.html">
+							<li>Sci-Fi</li>
+						</a>
+            <a href="horror.html">
+							<li>Horror</li>
+						</a>
+            <a href="mystery.html">
+							<li>Mystery</li>
+						</a>
+           		<a href="contactus.html">
+							<li>Contact Us</li>
+						</a> 
+
+					</ul>
+				</nav>
+			</div>
+			<div id="logobox">
+				<img src="images/ball-logo.png" width="135" height="135" id="logo" > 
+      </div>
+      <div id="overlay">
+        <h1 id="overlaydesc"></h1>
+        <div id="overlayiframe"></div>
+        <a href="#" class="close" id="overbutton" onclick="close_overlay()"></a>
+      </div>
+
+
+<div id="content">
+	<main>
+		
+			
+       
+    <h1 style="text-align: center; padding: 2rem;"> SCI-FI MOVIES</h1>
+         <div class="row">
+          <div class="col-3 ">
+            
+            <ul>
+               <li><button onclick="show_overlay('Venom: Let There Be Carnage is an upcoming American superhero film featuring the Marvel Comics character Venom, produced by Columbia Pictures in association with Marvel and Tencent Pictures.',venom)"id = "test"><img src="images/movies/venom.png" alt="" width="280" height="400"><p>Venom 2</p></button></li> 
+               <li><button onclick="show_overlay('the plot is still unknown.',matrix4 )"id = "test"><img src="images/movies/M4-poster.jpg" alt="" width="280" height="400"><p>Matrix 4</p></button></li>
+               <li><button onclick="show_overlay('In the far future of humanity, Duke Leto Atreides accepts stewardship of the dangerous desert planet Arrakis, also known as Dune, the only source of the most valuable substance in the universe, ``the spice``, a drug which extends human life, provides superhuman levels of thought, and makes faster-than-light travel practical. Though Leto knows the opportunity is an intricate trap set by his enemies, he takes his Bene Gesserit concubine Lady Jessica, young son and heir Paul, and most trusted advisers to Arrakis. Leto takes control of the spice mining operation, which is made perilous by the presence of giant sandworms. A bitter betrayal leads Paul and Jessica to the Fremen, natives of Arrakis who live in the deep desert.',dune )"id = "test"><img src="images/movies/dune.jpg" alt="" width="280" height="400"><p>Dune </p></button></li>
+            </ul>
+
+           
+
+          </div>
+          
+         <div class="col-3 ">
+          
+           <ul>
+            <li><button onclick="show_overlay('Spider-Man: No Way Home is an upcoming American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing.',spiderman )"id = "test"><img src="images/movies/spider1.jpg" alt="" width="280" height="400"><p>Spider-Man: No Way Home</p></button></li>
+            <li><button onclick="show_overlay('The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.',eternals )"id = "test"><img src="images/movies/eternalposter.jpg" alt="" width="280" height="400"><p>The Eternals</p></button></li>
+            <li><button onclick="show_overlay('Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they quickly realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',quietplace )"id = "test"><img src="images/movies/quietplace.jpg" alt="" width="280" height="400"><p>A Quiet Place 2</p></button></li>
+            </ul>
+         
+              
+         
+        </div>
+         <div class="col-3 ">
+            
+            <ul>
+                <li><button onclick="show_overlay('At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative.',blackwidow )"id = "test"><img src="images/movies/black-widow-poster.png" alt="" width="280" height="400"><p>Black Widow</p></button></li>
+               <li><button onclick="show_overlay('Set in the near future, the film follows private detective David Carmichael, who is hired by Marlon Veidt, an eccentric businessman, to find his daughter. David teams up with an advanced A.I. to solve the mystery.',zone414 )"id = "test"><img src="images/movies/zone414.jpg" alt="" width="280" height="400"><p>Zone 414</p></button></li>
+             </ul>
+                 
+            
+ 
+          </div>
+          <div class="col-3 ">
+            
+            <ul>
+               <li><button onclick="show_overlay('Following the presidential elections from the last year and abolition of the Purge, a Mexican couple escaping from a drug cartel is stranded on a Texas ranch. There, they will be at the mercy of a group of outsiders who plan to unlawfully continue their own Purge, and turn against the couple to eliminate them',thefp )"id = "test"><img src="images/movies/purge-poster.jpg" alt="" width="280" height="400"><p>The Forever Purgue</p></button></li>
+               <li><button onclick="show_overlay('When basketball champion and global icon LeBron James and his young son Dom (Cedric Joe) – who dreams of being a video game developer rather than follow his father`s footsteps – find themselves trapped in Serververse, a virtual space ruled by a rogue A.I. named Al-G Rhythm (Don Cheadle), LeBron must save his son and get them home safe by leading Bugs Bunny, Daffy Duck, Porky Pig, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to win a basketball match against Al-G`s digitized champions on the court, the Goon Squad: powered-up virtual avatars of professional basketball stars as you’ve never seen them before. It’s Tunes versus Goons in the highest-stakes challenge of his life, that will redefine LeBron’s bond with his son and shine a light on the power of being yourself.',spacejam )"id = "test"><img src="images/movies/spacejam.jpg" alt="" width="280" height="400"><p>Space Jam</p></button></li>
+
+             </ul>
+                  
+             
+
+          </div>
+
+         </div>
+         <br>
+         <br>
+         <h1 style="text-align: center;"> SCI-FI GAMES</h1>
+         <br>
+         <br>
+         <div class="row">
+            <div class="col-3 ">
+              
+              <ul>
+                 <li><button onclick="show_overlay('Cyberpunk 2077 is a 2020 action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe. Players assume the first-person perspective of a customisable mercenary known as V, who can acquire skills in hacking and machinery with options for melee and ranged combat. ',cyberpunk)" id="test"><img src="images/games/cyberposter.jpg" alt="" width="280" height="400"><p>Cyberpunk 2077</p></button></li> 
+                 <li><button onclick="show_overlay('The game`s story follows Cloud Strife, a mercenary who joins an eco-terrorist organization to stop a world-controlling megacorporation from using the planet`s life essence as an energy source. Events send Cloud and his allies in pursuit of Sephiroth, a former member of the corporation who seeks to harm the planet and become a god. During the journey, Cloud builds close friendships with his party members, including Aerith Gainsborough, who holds the secret to saving their world.',vi)"id = "test"><img src="images/games/ffviiposter.jpg" alt="" width="280" height="400"><p>Final Fantasy VII Remake</p></button></li>
+                <li><button onclick="show_overlay('Metroid Prime 4 is a first-person adventure game currently in development for Nintendo Switch. Announced on June 13, 2017 during the Nintendo Spotlight at E3, it will be the fourth main entry in the Prime series. The game`s announcement came nearly ten years after the release of its predecessor, Metroid Prime 3: Corruption. Its release date is currently unknown and there are few details about Prime 4 available at this time.',metroid )"id = "test"><img src="images/games/metroid.jpg" alt=" width="280" height="400"><p>Metroid Prime 4</p></button></li>
+              </ul>
+  
+  
+  
+  
+           
+  
+                 
+             
+  
+  
+             
+  
+            </div>
+            
+           <div class="col-3 ">
+              
+             <ul>
+                <li><button onclick="show_overlay('EVERSPACE™ 2 is a fast-paced single-player space shooter with deep exploration, tons of loot and classic RPG elements. Experience a thrilling story set in a vivid, handcrafted open-world full of secrets and perils on your journey to become human after all.',everspace )"id = "test"><img src="images/games/everspace.jpg" alt="" width="280" height="400"><p>Everspace 2</p></button></li>
+                <li><button onclick="show_overlay('According to Microsoft, Master Chief returns in Halo Infinite, the third chapter of the `Reclaimer Saga`, with `his greatest adventure yet to save humanity`. The storyline of Halo Infinite will be `much more human`, with the Master Chief playing a more central role than in Halo 5: Guardians.',halo )"id = "test"><img src="images/games/halo.jpg" alt="" width="280" height="400"><p>Halo Infinite</p></button></li>
+                
+              </ul>
+           
+                
+           
+          </div>
+           <div class="col-3 ">
+                
+              <ul>
+                 <li><button onclick="show_overlay('Coming in 2022',starfield )"id = "test"><img src="images/games/starfield2.jpg" alt="" width="280" height="400"><p>Starfield</p></button></li>
+                 <li><button onclick="show_overlay('Star Wars Jedi: Fallen Order is an action-adventure game. The story, set in the Star Wars universe five years after Star Wars: Episode III – Revenge of the Sith, follows Jedi Padawan Cal Kestis, who becomes a target of the Galactic Empire and is hunted throughout the galaxy by two Inquisitors while attempting to complete his training, escape his troubled past, and rebuild the fallen Jedi Order.',starwars )"id = "test"><img src="images/games/starwars.jpg" alt="" width="280" height="400"><p>Star Wars Jedi: Fallen Order</p></button></li>
+  
+               </ul>
+                   
+              
+   
+            </div>
+            <div class="col-3 ">
+                
+              <ul>
+                 <li><button onclick="show_overlay('The game is a spin-off from the Drakengard series, and follows the fifth ending of the first game, the events of which have left the planet Earth in a state of decay.',nier )"id = "test"><img src="images/games/nier.jpeg" alt="" width="280" height="400"><p>Nier replicant</p></button></li>
+                 <li><button onclick="show_overlay('Although based on the second film, the game`s story is a sequel to the Alien trilogy, set 23 years after the original films. The player assumes the role of a Colonial Marine on board the USS Endeavor, a spaceship tasked with responding to a distress call from the outer colonies',aliens )"id = "test"><img src="images/games/aliens.jpg" alt="" width="280" height="400"><p>Aliens Fire team</p></button></li>
+               </ul>
+                    
+               
+  
+            </div>
+  
+           </div>
+      
+    
+            
+	
+	
+
+	</main>
+	<aside>
+		
+		</div>
+
+	</aside>
+</div>
+		<footer>
+      <footer>
+        <img src="images/ball-logo.png" width="5%" height="5%" ></img>
+        <h5>MG Trailers</h5>
+        <p>MG Trailers is a Free Movies and Games Trailers streaming site with zero ads.<br> We let you watch movies and games trailers without having to register or paying,<br> with over 50 movies and Games Trailers for you to Enjoy!</p>
+      </footer>
+		</footer>
+	</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+      // Movies Trailers:
+      var venom = '<iframe width="560" height="315" src="https://www.youtube.com/embed/rrwBnlYOp4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var matrix4 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/QPv9VdPvFe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var dune = '<iframe width="560" height="315" src="https://www.youtube.com/embed/n9xhJrPXop4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spiderman = '<iframe width="560" height="315" src="https://www.youtube.com/embed/N6wMMMt5DY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var eternals = '<iframe width="560" height="315" src="https://www.youtube.com/embed/TziAh7O9iLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var quietplace = '<iframe width="560" height="315" src="https://www.youtube.com/embed/BpdDN9d9Jio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var blackwidow = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Fp9pNPdNwjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var zone414 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/qXXX_6WkTKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var thefp = '<iframe width="560" height="315" src="https://www.youtube.com/embed/xOrXpK-rUaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var spacejam = '<iframe width="560" height="315" src="https://www.youtube.com/embed/olXYZOsXw_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      
+      //Games Trailers:
+      var cyberpunk = '<iframe width="560" height="315" src="https://www.youtube.com/embed/qIcTM8WXFjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var vi = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ERgrFVhL-n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var metroid = '<iframe width="560" height="315" src="https://www.youtube.com/embed/nFbDmTjS_MI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var everspace = '<iframe width="560" height="315" src="https://www.youtube.com/embed/fuygGFteHpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var halo = '<iframe width="560" height="315" src="https://www.youtube.com/embed/MBb88gLmJZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var starfield = '<iframe width="560" height="315" src="https://www.youtube.com/embed/JUobbpHERh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var starwars = '<iframe width="560" height="315" src="https://www.youtube.com/embed/1wWkQXUMQYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var nier = '<iframe width="560" height="315" src="https://www.youtube.com/embed/gjjJbd-pa8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      var aliens = '<iframe width="560" height="315" src="https://www.youtube.com/embed/D1GRp19A89A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      
+      
+      function show_overlay(text,iframe){ //function that creates the overlay based on what movie/game the user clicked on, we did this by creating a css class that in invisible and occupies the z-index 4, and when the user clicks on a image, we make the class visible and add text to it based on what image was clicked on.
+      document.getElementById("overlaydesc").innerHTML ="Description: " + text
+      var ifrm = document.getElementById("overlayiframe") 
+      
+      ifrm.innerHTML = iframe
+      
+      document.getElementById("overlay").style.display = "block"
+      // document.getElementById("overlaydesc").style.display = "block";
+      // document.getElementById("overlay").style.display = "block";
+      }
+      function close_overlay(){
+        document.getElementById("overlay").style.display = "none"
+
+
+      }
+      /*
+             show_overlay("THIS IS A TEST THIS IS A TEST",'<iframe width="560" height="315" src="https://www.youtube.com/embed/CGNi4Ca7XVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>') */
+          </script>
+  </body>
+</div>
+</html>
